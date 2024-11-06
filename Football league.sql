@@ -18,8 +18,19 @@ CREATE TABLE club (
   FOREIGN KEY (stadium_id) REFERENCES stadium(stadium_id)
 );
 
+CREATE TABLE associate (
+  associate_id integer PRIMARY KEY AUTO_INCREMENT,
+  associate_name varchar(255),
+  dob date,
+  contact_number varchar(255),
+  nationality varchar(255),
+  height integer,
+  associate_status varchar(255)
+);
+
 CREATE TABLE league_trophy (
   trophy_id integer PRIMARY KEY AUTO_INCREMENT,
+  trophy_name varchar(255),
   club_id integer,
   date_won date,
   season integer,
@@ -28,9 +39,10 @@ CREATE TABLE league_trophy (
 
 CREATE TABLE manager (
   manager_id integer PRIMARY KEY,
-  manager_status varchar(255),
+  prefer_tatic varchar(255),
   club_id integer,
-  FOREIGN KEY (club_id) REFERENCES club(club_id)
+  FOREIGN KEY (club_id) REFERENCES club(club_id),
+  FOREIGN KEY (manager_id) REFERENCES associate(associate_id)
 );
 
 CREATE TABLE manager_contract (
@@ -61,7 +73,8 @@ CREATE TABLE player (
   transfer_from varchar(255),
   transfer_value integer,
   club_id integer,
-  FOREIGN KEY (club_id) REFERENCES club(club_id)
+  FOREIGN KEY (club_id) REFERENCES club(club_id),
+  FOREIGN KEY (player_id) REFERENCES associate(associate_id)
 );
 
 CREATE TABLE game (
@@ -135,7 +148,7 @@ CREATE TABLE goal (
   scorer_id integer,
   assist_id integer,
   match_id integer,
-  goal_time timestamp,
+  goal_time varchar(45),
   goal_type text,
   FOREIGN KEY (match_id) REFERENCES game(match_id),
   FOREIGN KEY (scorer_id) REFERENCES player(player_id),
@@ -193,17 +206,3 @@ CREATE TABLE injury (
   recover_time varchar(255),
   FOREIGN KEY (player_id) REFERENCES player(player_id)
 );
-
-CREATE TABLE associate (
-  associate_id integer PRIMARY KEY AUTO_INCREMENT,
-  associate_name varchar(255),
-  dob date,
-  contact_number varchar(255),
-  nationality varchar(255),
-  height integer,
-  associate_status varchar(255)
-);
-
--- Associate relationships
-ALTER TABLE player ADD FOREIGN KEY (player_id) REFERENCES associate(associate_id);
-ALTER TABLE manager ADD FOREIGN KEY (manager_id) REFERENCES associate(associate_id);

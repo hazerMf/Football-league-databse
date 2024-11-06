@@ -1,0 +1,2 @@
+change manager year of experience/status to prefer tatic
+add trophy name
