@@ -79,10 +79,10 @@ CREATE TABLE player (
 
 CREATE TABLE game (
   match_id integer PRIMARY KEY AUTO_INCREMENT,
-  away_club_id integer,
   home_club_id integer,
-  away_club_goal integer,
+  away_club_id integer,
   home_club_goal integer,
+  away_club_goal integer,
   play_date date,
   FOREIGN KEY (away_club_id) REFERENCES club(club_id),
   FOREIGN KEY (home_club_id) REFERENCES club(club_id)
@@ -180,7 +180,7 @@ CREATE TABLE player_stat (
 CREATE TABLE player_contract (
   player_id integer,
   club_id integer,
-  buyout_clause text,
+  buyout_clause varchar(255),
   contract_start_date date,
   contract_end_date date,
   contract_value integer,
