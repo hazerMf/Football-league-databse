@@ -1,4 +1,8 @@
-select associate.associate_name as 'Name', associate.dob as 'Date of birth', associate.associate_status as 'Status'
-from associate join player
-where player.club_id = '1' 
-and player.player_id = associate.associate_id;
+-- list all players of a specific team
+SELECT 
+	associate.associate_name AS 'Name', 
+    associate.dob AS 'Date of birth', 
+    associate.associate_status AS 'Status'
+FROM associate JOIN player
+WHERE player.club_id = '1' 
+AND player.player_id = associate.associate_id;

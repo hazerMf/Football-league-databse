@@ -14,4 +14,4 @@ JOIN officiate ON game.match_id = officiate.match_id
 JOIN referee AS ref ON officiate.ref_id = ref.ref_id
 WHERE 
   (home.club_id = 1 OR away.club_id = 1)
-  AND referee_role = 'Main Referee';
+  and referee_role = 'Main Referee';
