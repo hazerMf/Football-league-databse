@@ -19,154 +19,154 @@ VALUES
 
 -- associate real madrid
 INSERT INTO `fbl`.`associate` (`associate_name`, `dob`, `nationality`, `associate_status`) 
-VALUES ('Carlo Ancelotti', '1959-06-10', 'Italy', 'active');
+VALUES ('Carlo Ancelotti', '1959-06-10', 'Italy', 'Active');
 INSERT INTO associate (associate_name, dob, contact_number, nationality, height, associate_status)
 VALUES 
-('Thibaut Courtois', '1992-05-11', '', 'Belgian', 199, 'active'),
-('Kepa Arrizabalaga', '1994-10-03', '', 'Spanish', 187, 'active'),
-('Antonio Rudiger', '1993-03-03', '', 'German', 190, 'active'),
-('David Alaba', '1992-06-24', '', 'Austrian', 180, 'active'),
-('Eder Militão', '1998-01-18', '', 'Brazilian', 185, 'active'),
-('Nacho Fernández', '1990-01-18', '', 'Spanish', 180, 'active'),
-('Ferland Mendy', '1995-06-08', '', 'French', 179, 'active'),
-('Marcelo', '1988-05-12', '', 'Brazilian', 174, 'active'),
-('Dani Carvajal', '1992-01-11', '', 'Spanish', 173, 'active'),
-('Aurelien Tchouaméni', '2000-01-27', '', 'French', 187, 'active'),
-('Luka Modrić', '1985-09-09', '', 'Croatian', 172, 'active'),
-('Toni Kroos', '1990-01-04', '', 'German', 182, 'active'),
-('Federico Valverde', '1998-07-22', '', 'Uruguayan', 182, 'active'),
-('Isco', '1992-04-21', '', 'Spanish', 175, 'active'),
-('Rodrygo Goes', '2001-01-09', '', 'Brazilian', 174, 'active'),
-('Vinícius Júnior', '2000-07-12', '', 'Brazilian', 175, 'active'),
-('Eden Hazard', '1991-01-07', '', 'Belgian', 175, 'active'),
-('Karim Benzema', '1987-12-19', '', 'French', 185, 'active'),
-('Joselu', '1990-03-27', '', 'Spanish', 192, 'active'),
-('Jude Bellingham', '2003-06-29', '', 'English', 186, 'active');
+('Thibaut Courtois', '1992-05-11', '', 'Belgian', 199, 'Active'),
+('Kepa Arrizabalaga', '1994-10-03', '', 'Spanish', 187, 'Active'),
+('Antonio Rudiger', '1993-03-03', '', 'German', 190, 'Active'),
+('David Alaba', '1992-06-24', '', 'Austrian', 180, 'Active'),
+('Eder Militão', '1998-01-18', '', 'Brazilian', 185, 'Active'),
+('Nacho Fernández', '1990-01-18', '', 'Spanish', 180, 'Active'),
+('Ferland Mendy', '1995-06-08', '', 'French', 179, 'Active'),
+('Marcelo', '1988-05-12', '', 'Brazilian', 174, 'Active'),
+('Dani Carvajal', '1992-01-11', '', 'Spanish', 173, 'Active'),
+('Aurelien Tchouaméni', '2000-01-27', '', 'French', 187, 'Active'),
+('Luka Modrić', '1985-09-09', '', 'Croatian', 172, 'Active'),
+('Toni Kroos', '1990-01-04', '', 'German', 182, 'Active'),
+('Federico Valverde', '1998-07-22', '', 'Uruguayan', 182, 'Active'),
+('Isco', '1992-04-21', '', 'Spanish', 175, 'Active'),
+('Rodrygo Goes', '2001-01-09', '', 'Brazilian', 174, 'Active'),
+('Vinícius Júnior', '2000-07-12', '', 'Brazilian', 175, 'Active'),
+('Eden Hazard', '1991-01-07', '', 'Belgian', 175, 'Active'),
+('Karim Benzema', '1987-12-19', '', 'French', 185, 'Active'),
+('Joselu', '1990-03-27', '', 'Spanish', 192, 'Active'),
+('Jude Bellingham', '2003-06-29', '', 'English', 186, 'Active');
 
 -- associate FC Barcelona
 INSERT INTO `fbl`.`associate` (`associate_name`, `dob`, `nationality`, `associate_status`) 
 VALUES ('Hansi Flick', '1965-02-24', 'Germany', 'Active');
 INSERT INTO associate (associate_name, dob, contact_number, nationality, height, associate_status)
 VALUES  
-('Marc-André ter Stegen', '1992-04-30', '', 'German', 187, 'active'),
-('Iñaki Peña', '1999-03-02', '', 'Spanish', 184, 'active'),
-('Wojciech Szczęsny', '1990-04-18', '', 'Polish', 195, 'active'),
-('Pau Cubarsí', '2007-01-22', '', 'Spanish', 184, 'active'),
-('Alejandro Balde', '2003-10-18', '', 'Spanish', 175, 'active'),
-('Ronald Araújo', '1999-03-07', '', 'Uruguayan', 192, 'active'),
-('Iñigo Martínez', '1991-05-17', '', 'Spanish', 182, 'active'),
-('Andreas Christensen', '1996-04-10', '', 'Danish', 187, 'active'),
-('Jules Koundé', '1998-11-12', '', 'French', 180, 'active'),
-('Eric García', '2001-01-09', '', 'Spanish', 182, 'active'),
-('Héctor Fort', '2006-08-02', '', 'Spanish', 185, 'active'),
-('Marc Casadó', '2003-09-14', '', 'Spanish', 172, 'active'),
-('Frenkie de Jong', '1997-05-12', '', 'Dutch', 180, 'active'),
-('Gavi', '2004-08-05', '', 'Spanish', 173, 'active'),
-('Pedri', '2002-11-25', '', 'Spanish', 174, 'active'),
-('Pablo Torre', '2003-04-03', '', 'Spanish', 173, 'active'),
-('Fermín López', '2003-05-11', '', 'Spanish', 176, 'active'),
-('Dani Olmo', '1998-05-07', '', 'Spanish', 179, 'active'),
-('Raphinha', '1996-12-14', '', 'Brazilian', 176, 'active'),
-('Ferran Torres', '2000-02-29', '', 'Spanish', 184, 'active'),
-('Ansu Fati', '2002-10-31', '', 'Spanish', 178, 'active'),
-('Robert Lewandowski', '1988-08-21', '', 'Polish', 185, 'active'),
-('Lamine Yamal', '2007-07-13', '', 'Spanish', 180, 'active');
+('Marc-André ter Stegen', '1992-04-30', '', 'German', 187, 'Active'),
+('Iñaki Peña', '1999-03-02', '', 'Spanish', 184, 'Active'),
+('Wojciech Szczęsny', '1990-04-18', '', 'Polish', 195, 'Active'),
+('Pau Cubarsí', '2007-01-22', '', 'Spanish', 184, 'Active'),
+('Alejandro Balde', '2003-10-18', '', 'Spanish', 175, 'Active'),
+('Ronald Araújo', '1999-03-07', '', 'Uruguayan', 192, 'Active'),
+('Iñigo Martínez', '1991-05-17', '', 'Spanish', 182, 'Active'),
+('Andreas Christensen', '1996-04-10', '', 'Danish', 187, 'Active'),
+('Jules Koundé', '1998-11-12', '', 'French', 180, 'Active'),
+('Eric García', '2001-01-09', '', 'Spanish', 182, 'Active'),
+('Héctor Fort', '2006-08-02', '', 'Spanish', 185, 'Active'),
+('Marc Casadó', '2003-09-14', '', 'Spanish', 172, 'Active'),
+('Frenkie de Jong', '1997-05-12', '', 'Dutch', 180, 'Active'),
+('Gavi', '2004-08-05', '', 'Spanish', 173, 'Active'),
+('Pedri', '2002-11-25', '', 'Spanish', 174, 'Active'),
+('Pablo Torre', '2003-04-03', '', 'Spanish', 173, 'Active'),
+('Fermín López', '2003-05-11', '', 'Spanish', 176, 'Active'),
+('Dani Olmo', '1998-05-07', '', 'Spanish', 179, 'Active'),
+('Raphinha', '1996-12-14', '', 'Brazilian', 176, 'Active'),
+('Ferran Torres', '2000-02-29', '', 'Spanish', 184, 'Active'),
+('Ansu Fati', '2002-10-31', '', 'Spanish', 178, 'Active'),
+('Robert Lewandowski', '1988-08-21', '', 'Polish', 185, 'Active'),
+('Lamine Yamal', '2007-07-13', '', 'Spanish', 180, 'Active');
 
 -- associate Atlético de Madrid
 INSERT INTO `fbl`.`associate` (`associate_name`, `dob`, `nationality`, `associate_status`) 
 VALUES ('Diego Simeone', '1970-04-28', 'Argentina', 'Active');
 INSERT INTO associate (associate_name, dob, contact_number, nationality, height, associate_status)
 VALUES 
-('Jan Oblak', '1993-01-07', '', 'Slovenian', 188, 'active'),
-('Ivo Grbić', '1996-01-18', '', 'Croatian', 195, 'active'),
-('Antonio Gomis', '2004-04-11', '', 'Spanish', 190, 'active'),
-('Alejandro Iturbe', '2004-01-25', '', 'Spanish', 187, 'active'),
-('César Azpilicueta', '1989-08-28', '', 'Spanish', 178, 'active'),
-('José María Giménez', '1995-01-20', '', 'Uruguayan', 185, 'active'),
-('Stefan Savić', '1991-01-08', '', 'Montenegrin', 187, 'active'),
-('Mario Hermoso', '1995-06-18', '', 'Spanish', 184, 'active'),
-('Reinildo Mandava', '1994-01-21', '', 'Mozambican', 180, 'active'),
-('Nahuel Molina', '1998-04-06', '', 'Argentinian', 175, 'active'),
-('Sergio Reguilón', '1996-12-16', '', 'Spanish', 178, 'active'),
-('Axel Witsel', '1989-01-12', '', 'Belgian', 186, 'active'),
-('Koke Resurrección', '1992-01-08', '', 'Spanish', 176, 'active'),
-('Rodrigo De Paul', '1994-05-24', '', 'Argentinian', 180, 'active'),
-('Marcos Llorente', '1995-01-30', '', 'Spanish', 184, 'active'),
-('Saúl Ñíguez', '1994-11-21', '', 'Spanish', 184, 'active'),
-('Pablo Barrios', '2003-06-15', '', 'Spanish', 180, 'active'),
-('Thomas Lemar', '1995-11-12', '', 'French', 171, 'active'),
-('Ángel Correa', '1995-03-09', '', 'Argentinian', 171, 'active'),
-('Antoine Griezmann', '1991-03-21', '', 'French', 176, 'active'),
-('Memphis Depay', '1994-02-13', '', 'Dutch', 176, 'active'),
-('Álvaro Morata', '1992-10-23', '', 'Spanish', 189, 'active'),
-('Samuel Lino', '1999-12-23', '', 'Brazilian', 175, 'active'),
-('Julián Álvarez', '2000-01-31', '', 'Argentinian', 170, 'active'),
-('Conor Gallagher', '2000-02-06', '', 'English', 182, 'active'),
-('Robin Le Normand', '1996-11-11', '', 'French', 187, 'active'),
-('Alexander Sørloth', '1995-12-05', '', 'Norwegian', 194, 'active');
+('Jan Oblak', '1993-01-07', '', 'Slovenian', 188, 'Active'),
+('Ivo Grbić', '1996-01-18', '', 'Croatian', 195, 'Active'),
+('Antonio Gomis', '2004-04-11', '', 'Spanish', 190, 'Active'),
+('Alejandro Iturbe', '2004-01-25', '', 'Spanish', 187, 'Active'),
+('César Azpilicueta', '1989-08-28', '', 'Spanish', 178, 'Active'),
+('José María Giménez', '1995-01-20', '', 'Uruguayan', 185, 'Active'),
+('Stefan Savić', '1991-01-08', '', 'Montenegrin', 187, 'Active'),
+('Mario Hermoso', '1995-06-18', '', 'Spanish', 184, 'Active'),
+('Reinildo Mandava', '1994-01-21', '', 'Mozambican', 180, 'Active'),
+('Nahuel Molina', '1998-04-06', '', 'Argentinian', 175, 'Active'),
+('Sergio Reguilón', '1996-12-16', '', 'Spanish', 178, 'Active'),
+('Axel Witsel', '1989-01-12', '', 'Belgian', 186, 'Active'),
+('Koke Resurrección', '1992-01-08', '', 'Spanish', 176, 'Active'),
+('Rodrigo De Paul', '1994-05-24', '', 'Argentinian', 180, 'Active'),
+('Marcos Llorente', '1995-01-30', '', 'Spanish', 184, 'Active'),
+('Saúl Ñíguez', '1994-11-21', '', 'Spanish', 184, 'Active'),
+('Pablo Barrios', '2003-06-15', '', 'Spanish', 180, 'Active'),
+('Thomas Lemar', '1995-11-12', '', 'French', 171, 'Active'),
+('Ángel Correa', '1995-03-09', '', 'Argentinian', 171, 'Active'),
+('Antoine Griezmann', '1991-03-21', '', 'French', 176, 'Active'),
+('Memphis Depay', '1994-02-13', '', 'Dutch', 176, 'Active'),
+('Álvaro Morata', '1992-10-23', '', 'Spanish', 189, 'Active'),
+('Samuel Lino', '1999-12-23', '', 'Brazilian', 175, 'Active'),
+('Julián Álvarez', '2000-01-31', '', 'Argentinian', 170, 'Active'),
+('Conor Gallagher', '2000-02-06', '', 'English', 182, 'Active'),
+('Robin Le Normand', '1996-11-11', '', 'French', 187, 'Active'),
+('Alexander Sørloth', '1995-12-05', '', 'Norwegian', 194, 'Active');
 
 -- associate Real Sociedad
 INSERT INTO `fbl`.`associate` (`associate_name`, `dob`, `nationality`, `associate_status`) 
 VALUES ('Imanol Alguacil', '1971-07-04', 'Spain', 'Active');
 INSERT INTO associate (associate_name, dob, contact_number, nationality, height, associate_status)
 VALUES 
-('Álex Remiro', '1995-03-24', '', 'Spanish', 192, 'active'),
-('Andoni Zubiaurre', '1996-12-04', '', 'Spanish', 188, 'active'),
-('Álvaro Odriozola', '1995-12-14', '', 'Spanish', 176, 'active'),
-('Aihen Muñoz', '1997-08-16', '', 'Spanish', 175, 'active'),
-('Igor Zubeldia', '1997-03-30', '', 'Spanish', 180, 'active'),
-('Aritz Elustondo', '1994-03-28', '', 'Spanish', 180, 'active'),
-('Robin Le Normand', '1996-11-11', '', 'French', 187, 'active'),
-('Diego Rico', '1993-02-23', '', 'Spanish', 183, 'active'),
-('Jon Pacheco', '2001-01-08', '', 'Spanish', 182, 'active'),
-('Martín Zubimendi', '1999-02-02', '', 'Spanish', 181, 'active'),
-('Asier Illarramendi', '1990-03-08', '', 'Spanish', 179, 'active'),
-('Mikel Merino', '1996-06-22', '', 'Spanish', 188, 'active'),
-('David Silva', '1986-01-08', '', 'Spanish', 173, 'active'),
-('Brais Méndez', '1997-01-07', '', 'Spanish', 187, 'active'),
-('Ander Barrenetxea', '2001-12-27', '', 'Spanish', 175, 'active'),
-('Mikel Oyarzabal', '1997-04-21', '', 'Spanish', 181, 'active'),
-('Takefusa Kubo', '2001-06-04', '', 'Japanese', 173, 'active'),
-('Carlos Fernández', '1996-05-22', '', 'Spanish', 185, 'active'),
-('Alexander Sørloth', '1995-12-05', '', 'Norwegian', 194, 'active'),
-('Umar Sadiq', '1997-02-02', '', 'Nigerian', 192, 'active');
+('Álex Remiro', '1995-03-24', '', 'Spanish', 192, 'Active'),
+('Andoni Zubiaurre', '1996-12-04', '', 'Spanish', 188, 'Active'),
+('Álvaro Odriozola', '1995-12-14', '', 'Spanish', 176, 'Active'),
+('Aihen Muñoz', '1997-08-16', '', 'Spanish', 175, 'Active'),
+('Igor Zubeldia', '1997-03-30', '', 'Spanish', 180, 'Active'),
+('Aritz Elustondo', '1994-03-28', '', 'Spanish', 180, 'Active'),
+('Robin Le Normand', '1996-11-11', '', 'French', 187, 'Active'),
+('Diego Rico', '1993-02-23', '', 'Spanish', 183, 'Active'),
+('Jon Pacheco', '2001-01-08', '', 'Spanish', 182, 'Active'),
+('Martín Zubimendi', '1999-02-02', '', 'Spanish', 181, 'Active'),
+('Asier Illarramendi', '1990-03-08', '', 'Spanish', 179, 'Active'),
+('Mikel Merino', '1996-06-22', '', 'Spanish', 188, 'Active'),
+('David Silva', '1986-01-08', '', 'Spanish', 173, 'Active'),
+('Brais Méndez', '1997-01-07', '', 'Spanish', 187, 'Active'),
+('Ander Barrenetxea', '2001-12-27', '', 'Spanish', 175, 'Active'),
+('Mikel Oyarzabal', '1997-04-21', '', 'Spanish', 181, 'Active'),
+('Takefusa Kubo', '2001-06-04', '', 'Japanese', 173, 'Active'),
+('Carlos Fernández', '1996-05-22', '', 'Spanish', 185, 'Active'),
+('Alexander Sørloth', '1995-12-05', '', 'Norwegian', 194, 'Active'),
+('Umar Sadiq', '1997-02-02', '', 'Nigerian', 192, 'Active');
 
 -- associate Athletic Bilbao
 INSERT INTO `fbl`.`associate` (`associate_name`, `dob`, `nationality`, `associate_status`) 
 VALUES ('Ernesto Valverde', '1964-02-09', 'Spain', 'Active');
 INSERT INTO associate (associate_name, dob, contact_number, nationality, height, associate_status)
 VALUES 
-('Unai Simón', '1997-06-11', '', 'Spanish', 190, 'active'),
-('Julen Agirrezabala', '2000-12-26', '', 'Spanish', 187, 'active'),
-('Iñigo Lekue', '1993-05-04', '', 'Spanish', 180, 'active'),
-('Óscar de Marcos', '1989-04-14', '', 'Spanish', 180, 'active'),
-('Yuri Berchiche', '1990-02-10', '', 'Spanish', 181, 'active'),
-('Dani Vivian', '1999-07-05', '', 'Spanish', 183, 'active'),
-('Yeray Álvarez', '1995-01-24', '', 'Spanish', 183, 'active'),
-('Aitor Paredes', '2000-04-29', '', 'Spanish', 186, 'active'),
-('Mikel Balenziaga', '1988-02-29', '', 'Spanish', 177, 'active'),
-('Unai Núñez', '1997-01-30', '', 'Spanish', 186, 'active'),
-('Ander Capa', '1992-02-08', '', 'Spanish', 175, 'active'),
-('Mikel Vesga', '1993-04-21', '', 'Spanish', 191, 'active'),
-('Oihan Sancet', '2000-04-25', '', 'Spanish', 188, 'active'),
-('Iker Muniain', '1992-12-19', '', 'Spanish', 170, 'active'),
-('Nico Williams', '2002-07-12', '', 'Spanish', 181, 'active'),
-('Álex Berenguer', '1995-07-04', '', 'Spanish', 175, 'active'),
-('Raúl García', '1986-07-11', '', 'Spanish', 183, 'active'),
-('Iñaki Williams', '1994-06-15', '', 'Spanish', 186, 'active'),
-('Gorka Guruzeta', '1996-09-12', '', 'Spanish', 188, 'active'),
-('Asier Villalibre', '1997-09-30', '', 'Spanish', 183, 'active'),
-('Unai Vencedor', '2000-11-15', '', 'Spanish', 177, 'active'),
-('Jon Morcillo', '1998-09-15', '', 'Spanish', 179, 'active'),
-('Ander Herrera', '1989-08-14', '', 'Spanish', 182, 'active'),
-('Peru Nolaskoain', '1998-10-25', '', 'Spanish', 186, 'active'),
-('Oier Zarraga', '1999-01-04', '', 'Spanish', 180, 'active'),
-('Iñigo Ruiz de Galarreta', '1993-08-06', '', 'Spanish', 174, 'active'),
-('Gorka Guruzeta', '1996-09-12', '', 'Spanish', 188, 'active'),
-('Aitor Paredes', '2000-04-29', '', 'Spanish', 186, 'active'),
-('Unai Gómez', '2003-01-25', '', 'Spanish', 178, 'active'),
-('Andoni Gorosabel', '1996-08-04', '', 'Spanish', 174, 'active'),
-('Álvaro Djaló', '2000-04-18', '', 'Spanish', 180, 'active');
+('Unai Simón', '1997-06-11', '', 'Spanish', 190, 'Active'),
+('Julen Agirrezabala', '2000-12-26', '', 'Spanish', 187, 'Active'),
+('Iñigo Lekue', '1993-05-04', '', 'Spanish', 180, 'Active'),
+('Óscar de Marcos', '1989-04-14', '', 'Spanish', 180, 'Active'),
+('Yuri Berchiche', '1990-02-10', '', 'Spanish', 181, 'Active'),
+('Dani Vivian', '1999-07-05', '', 'Spanish', 183, 'Active'),
+('Yeray Álvarez', '1995-01-24', '', 'Spanish', 183, 'Active'),
+('Aitor Paredes', '2000-04-29', '', 'Spanish', 186, 'Active'),
+('Mikel Balenziaga', '1988-02-29', '', 'Spanish', 177, 'Active'),
+('Unai Núñez', '1997-01-30', '', 'Spanish', 186, 'Active'),
+('Ander Capa', '1992-02-08', '', 'Spanish', 175, 'Active'),
+('Mikel Vesga', '1993-04-21', '', 'Spanish', 191, 'Active'),
+('Oihan Sancet', '2000-04-25', '', 'Spanish', 188, 'Active'),
+('Iker Muniain', '1992-12-19', '', 'Spanish', 170, 'Active'),
+('Nico Williams', '2002-07-12', '', 'Spanish', 181, 'Active'),
+('Álex Berenguer', '1995-07-04', '', 'Spanish', 175, 'Active'),
+('Raúl García', '1986-07-11', '', 'Spanish', 183, 'Active'),
+('Iñaki Williams', '1994-06-15', '', 'Spanish', 186, 'Active'),
+('Gorka Guruzeta', '1996-09-12', '', 'Spanish', 188, 'Active'),
+('Asier Villalibre', '1997-09-30', '', 'Spanish', 183, 'Active'),
+('Unai Vencedor', '2000-11-15', '', 'Spanish', 177, 'Active'),
+('Jon Morcillo', '1998-09-15', '', 'Spanish', 179, 'Active'),
+('Ander Herrera', '1989-08-14', '', 'Spanish', 182, 'Active'),
+('Peru Nolaskoain', '1998-10-25', '', 'Spanish', 186, 'Active'),
+('Oier Zarraga', '1999-01-04', '', 'Spanish', 180, 'Active'),
+('Iñigo Ruiz de Galarreta', '1993-08-06', '', 'Spanish', 174, 'Active'),
+('Gorka Guruzeta', '1996-09-12', '', 'Spanish', 188, 'Active'),
+('Aitor Paredes', '2000-04-29', '', 'Spanish', 186, 'Active'),
+('Unai Gómez', '2003-01-25', '', 'Spanish', 178, 'Active'),
+('Andoni Gorosabel', '1996-08-04', '', 'Spanish', 174, 'Active'),
+('Álvaro Djaló', '2000-04-18', '', 'Spanish', 180, 'Active');
 
 -- Inserting trophies for FC Barcelona
 INSERT INTO league_trophy (trophy_name, club_id, date_won, season)
@@ -185,19 +185,19 @@ VALUES
 INSERT INTO manager (manager_id, prefer_tatic, club_id)
 VALUES
 -- Real Madrid manager
-(1, 'Balanced, High Pressing', 1),  -- Carlo Ancelotti (Real Madrid)
+(1, 'Balanced, High Pressing', 1),  -- Carlo Ancelotti
 
 -- FC Barcelona manager
-(25, 'Possession-based, Tiki-Taka', 2),  -- Hansi Flick (FC Barcelona)
+(25, 'Possession-based, Tiki-Taka', 2),  -- Hansi Flick
 
 -- Atlético Madrid manager
-(46, 'Defensive, Counter-attacking', 3),  -- Diego Simeone (Atlético Madrid)
+(46, 'Defensive, Counter-attacking', 3),  -- Diego Simeone
 
 -- Real Sociedad manager
-(74, 'Possession-based, High Pressing', 4),  -- Imanol Alguacil (Real Sociedad)
+(74, 'Possession-based, High Pressing', 4),  -- Imanol Alguacil
 
 -- Athletic Bilbao manager
-(95, 'High pressing, Direct', 5);  -- Ernesto Valverde (Athletic Bilbao)
+(95, 'High pressing, Direct', 5);  -- Ernesto Valverde
 
 -- manager contract
 INSERT INTO manager_contract (manager_id, club_id, contract_start_date, end_date, contract_value)
@@ -550,6 +550,7 @@ VALUES
 -- appear in
 INSERT INTO appear_in (player_id, match_id, player_role)
 VALUES
+-- match 1
 (2, 1, 'Starting'),
 (3, 1, 'Starting'),
 (4, 1, 'Starting'),
@@ -574,87 +575,496 @@ VALUES
 (31, 1, 'Starting'),
 (32, 1, 'Starting'),
 (33, 1, 'Starting'),
+(34, 1, 'Substitute'),
 
-(47, 1, 'Starting'),
-(48, 1, 'Starting'),
-(49, 1, 'Starting'),
-(50, 1, 'Starting'),
-(51, 1, 'Starting'),
-(52, 1, 'Starting'),
-(53, 1, 'Starting'),
-(54, 1, 'Starting'),
-(55, 1, 'Starting'),
-(56, 1, 'Starting'),
-(57, 1, 'Starting'),
+-- match 2
+(2, 2, 'Starting'),
+(3, 2, 'Starting'),
+(4, 2, 'Starting'),
+(5, 2, 'Starting'),
+(6, 2, 'Starting'),
+(7, 2, 'Starting'),
+(8, 2, 'Starting'),
+(9, 2, 'Starting'),
+(10, 2, 'Starting'),
+(11, 2, 'Starting'),
+(12, 2, 'Starting'),
 
-(75, 1, 'Starting'),
-(76, 1, 'Starting'),
-(77, 1, 'Starting'),
-(78, 1, 'Starting'),
-(79, 1, 'Starting'),
-(80, 1, 'Starting'),
-(81, 1, 'Starting'),
-(82, 1, 'Starting'),
-(83, 1, 'Starting'),
-(84, 1, 'Starting'),
-(85, 1, 'Starting'),
+(47, 2, 'Starting'),
+(48, 2, 'Starting'),
+(49, 2, 'Starting'),
+(50, 2, 'Starting'),
+(51, 2, 'Starting'),
+(52, 2, 'Starting'),
+(53, 2, 'Starting'),
+(54, 2, 'Starting'),
+(55, 2, 'Starting'),
+(56, 2, 'Starting'),
+(57, 2, 'Starting'),
 
-(96, 1, 'Starting'),
-(97, 1, 'Starting'),
-(98, 1, 'Starting'),
-(99, 1, 'Starting'),
-(100, 1, 'Starting'),
-(101, 1, 'Starting'),
-(102, 1, 'Starting'),
-(103, 1, 'Starting'),
-(104, 1, 'Starting'),
-(105, 1, 'Starting'),
-(106, 1, 'Starting');
+-- match 3
+(2, 3, 'Starting'),
+(3, 3, 'Starting'),
+(4, 3, 'Starting'),
+(5, 3, 'Starting'),
+(6, 3, 'Starting'),
+(7, 3, 'Starting'),
+(8, 3, 'Starting'),
+(9, 3, 'Starting'),
+(10, 3, 'Starting'),
+(11, 3, 'Starting'),
+(12, 3, 'Starting'),
+
+(75, 3, 'Starting'),
+(76, 3, 'Starting'),
+(77, 3, 'Starting'),
+(78, 3, 'Starting'),
+(79, 3, 'Starting'),
+(80, 3, 'Starting'),
+(81, 3, 'Starting'),
+(82, 3, 'Starting'),
+(83, 3, 'Starting'),
+(84, 3, 'Starting'),
+(85, 3, 'Starting'),
+
+-- match 4
+(2, 4, 'Starting'),
+(3, 4, 'Starting'),
+(4, 4, 'Starting'),
+(5, 4, 'Starting'),
+(6, 4, 'Starting'),
+(7, 4, 'Starting'),
+(8, 4, 'Starting'),
+(9, 4, 'Starting'),
+(10, 4, 'Starting'),
+(11, 4, 'Starting'),
+(12, 4, 'Starting'),
+
+(96, 4, 'Starting'),
+(97, 4, 'Starting'),
+(98, 4, 'Starting'),
+(99, 4, 'Starting'),
+(100, 4, 'Starting'),
+(101, 4, 'Starting'),
+(102, 4, 'Starting'),
+(103, 4, 'Starting'),
+(104, 4, 'Starting'),
+(105, 4, 'Starting'),
+(106, 4, 'Starting'),
+
+-- match 5
+(23, 5, 'Starting'),
+(24, 5, 'Starting'),
+(25, 5, 'Starting'),
+(26, 5, 'Starting'),
+(27, 5, 'Starting'),
+(28, 5, 'Starting'),
+(29, 5, 'Starting'),
+(30, 5, 'Starting'),
+(31, 5, 'Starting'),
+(32, 5, 'Starting'),
+(33, 5, 'Starting'),
+
+(2, 5, 'Starting'),
+(3, 5, 'Starting'),
+(4, 5, 'Starting'),
+(5, 5, 'Starting'),
+(6, 5, 'Starting'),
+(7, 5, 'Starting'),
+(8, 5, 'Starting'),
+(9, 5, 'Starting'),
+(10, 5, 'Starting'),
+(11, 5, 'Starting'),
+(12, 5, 'Starting'),
+
+-- match 6
+(23, 6, 'Starting'),
+(24, 6, 'Starting'),
+(25, 6, 'Starting'),
+(26, 6, 'Starting'),
+(27, 6, 'Starting'),
+(28, 6, 'Starting'),
+(29, 6, 'Starting'),
+(30, 6, 'Starting'),
+(31, 6, 'Starting'),
+(32, 6, 'Starting'),
+(33, 6, 'Starting'),
+
+(47, 6, 'Starting'),
+(48, 6, 'Starting'),
+(49, 6, 'Starting'),
+(50, 6, 'Starting'),
+(51, 6, 'Starting'),
+(52, 6, 'Starting'),
+(53, 6, 'Starting'),
+(54, 6, 'Starting'),
+(55, 6, 'Starting'),
+(56, 6, 'Starting'),
+(57, 6, 'Starting'),
+
+-- match 7
+(23, 7, 'Starting'),
+(24, 7, 'Starting'),
+(25, 7, 'Starting'),
+(26, 7, 'Starting'),
+(27, 7, 'Starting'),
+(28, 7, 'Starting'),
+(29, 7, 'Starting'),
+(30, 7, 'Starting'),
+(31, 7, 'Starting'),
+(32, 7, 'Starting'),
+(33, 7, 'Starting'),
+
+(75, 7, 'Starting'),
+(76, 7, 'Starting'),
+(77, 7, 'Starting'),
+(78, 7, 'Starting'),
+(79, 7, 'Starting'),
+(80, 7, 'Starting'),
+(81, 7, 'Starting'),
+(82, 7, 'Starting'),
+(83, 7, 'Starting'),
+(84, 7, 'Starting'),
+(85, 7, 'Starting'),
+
+-- match 8
+(23, 8, 'Starting'),
+(24, 8, 'Starting'),
+(25, 8, 'Starting'),
+(26, 8, 'Starting'),
+(27, 8, 'Starting'),
+(28, 8, 'Starting'),
+(29, 8, 'Starting'),
+(30, 8, 'Starting'),
+(31, 8, 'Starting'),
+(32, 8, 'Starting'),
+(33, 8, 'Starting'),
+
+(96, 8, 'Starting'),
+(97, 8, 'Starting'),
+(98, 8, 'Starting'),
+(99, 8, 'Starting'),
+(100, 8, 'Starting'),
+(101, 8, 'Starting'),
+(102, 8, 'Starting'),
+(103, 8, 'Starting'),
+(104, 8, 'Starting'),
+(105, 8, 'Starting'),
+(106, 8, 'Starting'),
+
+-- match 9
+(47, 9, 'Starting'),
+(48, 9, 'Starting'),
+(49, 9, 'Starting'),
+(50, 9, 'Starting'),
+(51, 9, 'Starting'),
+(52, 9, 'Starting'),
+(53, 9, 'Starting'),
+(54, 9, 'Starting'),
+(55, 9, 'Starting'),
+(56, 9, 'Starting'),
+(57, 9, 'Starting'),
+(58, 9, 'Substitute'),
+
+(2, 9, 'Starting'),
+(3, 9, 'Starting'),
+(4, 9, 'Starting'),
+(5, 9, 'Starting'),
+(6, 9, 'Starting'),
+(7, 9, 'Starting'),
+(8, 9, 'Starting'),
+(9, 9, 'Starting'),
+(10, 9, 'Starting'),
+(11, 9, 'Starting'),
+(12, 9, 'Starting'),
+
+-- match 10
+(47, 10, 'Starting'),
+(48, 10, 'Starting'),
+(49, 10, 'Starting'),
+(50, 10, 'Starting'),
+(51, 10, 'Starting'),
+(52, 10, 'Starting'),
+(53, 10, 'Starting'),
+(54, 10, 'Starting'),
+(55, 10, 'Starting'),
+(56, 10, 'Starting'),
+(57, 10, 'Starting'),
+
+(23, 10, 'Starting'),
+(24, 10, 'Starting'),
+(25, 10, 'Starting'),
+(26, 10, 'Starting'),
+(27, 10, 'Starting'),
+(28, 10, 'Starting'),
+(29, 10, 'Starting'),
+(30, 10, 'Starting'),
+(31, 10, 'Starting'),
+(32, 10, 'Starting'),
+(33, 10, 'Starting'),
+
+-- match 11
+(47, 11, 'Starting'),
+(48, 11, 'Starting'),
+(49, 11, 'Starting'),
+(50, 11, 'Starting'),
+(51, 11, 'Starting'),
+(52, 11, 'Starting'),
+(53, 11, 'Starting'),
+(54, 11, 'Starting'),
+(55, 11, 'Starting'),
+(56, 11, 'Starting'),
+(57, 11, 'Starting'),
+
+(75, 11, 'Starting'),
+(76, 11, 'Starting'),
+(77, 11, 'Starting'),
+(78, 11, 'Starting'),
+(79, 11, 'Starting'),
+(80, 11, 'Starting'),
+(81, 11, 'Starting'),
+(82, 11, 'Starting'),
+(83, 11, 'Starting'),
+(84, 11, 'Starting'),
+(85, 11, 'Starting'),
+
+-- match 12
+(47, 12, 'Starting'),
+(48, 12, 'Starting'),
+(49, 12, 'Starting'),
+(50, 12, 'Starting'),
+(51, 12, 'Starting'),
+(52, 12, 'Starting'),
+(53, 12, 'Starting'),
+(54, 12, 'Starting'),
+(55, 12, 'Starting'),
+(56, 12, 'Starting'),
+(57, 12, 'Starting'),
+
+(96, 12, 'Starting'),
+(97, 12, 'Starting'),
+(98, 12, 'Starting'),
+(99, 12, 'Starting'),
+(100, 12, 'Starting'),
+(101, 12, 'Starting'),
+(102, 12, 'Starting'),
+(103, 12, 'Starting'),
+(104, 12, 'Starting'),
+(105, 12, 'Starting'),
+(106, 12, 'Starting'),
+
+-- match 13
+(75, 13, 'Starting'),
+(76, 13, 'Starting'),
+(77, 13, 'Starting'),
+(78, 13, 'Starting'),
+(79, 13, 'Starting'),
+(80, 13, 'Starting'),
+(81, 13, 'Starting'),
+(82, 13, 'Starting'),
+(83, 13, 'Starting'),
+(84, 13, 'Starting'),
+(85, 13, 'Starting'),
+
+(2, 13, 'Starting'),
+(3, 13, 'Starting'),
+(4, 13, 'Starting'),
+(5, 13, 'Starting'),
+(6, 13, 'Starting'),
+(7, 13, 'Starting'),
+(8, 13, 'Starting'),
+(9, 13, 'Starting'),
+(10, 13, 'Starting'),
+(11, 13, 'Starting'),
+(12, 13, 'Starting'),
+
+-- match 14
+(75, 14, 'Starting'),
+(76, 14, 'Starting'),
+(77, 14, 'Starting'),
+(78, 14, 'Starting'),
+(79, 14, 'Starting'),
+(80, 14, 'Starting'),
+(81, 14, 'Starting'),
+(82, 14, 'Starting'),
+(83, 14, 'Starting'),
+(84, 14, 'Starting'),
+(85, 14, 'Starting'),
+
+(23, 14, 'Starting'),
+(24, 14, 'Starting'),
+(25, 14, 'Starting'),
+(26, 14, 'Starting'),
+(27, 14, 'Starting'),
+(28, 14, 'Starting'),
+(29, 14, 'Starting'),
+(30, 14, 'Starting'),
+(31, 14, 'Starting'),
+(32, 14, 'Starting'),
+(33, 14, 'Starting'),
+
+-- match 15
+(75, 15, 'Starting'),
+(76, 15, 'Starting'),
+(77, 15, 'Starting'),
+(78, 15, 'Starting'),
+(79, 15, 'Starting'),
+(80, 15, 'Starting'),
+(81, 15, 'Starting'),
+(82, 15, 'Starting'),
+(83, 15, 'Starting'),
+(84, 15, 'Starting'),
+(85, 15, 'Starting'),
+(86, 15, 'Substitute'),
+
+(47, 15, 'Starting'),
+(48, 15, 'Starting'),
+(49, 15, 'Starting'),
+(50, 15, 'Starting'),
+(51, 15, 'Starting'),
+(52, 15, 'Starting'),
+(53, 15, 'Starting'),
+(54, 15, 'Starting'),
+(55, 15, 'Starting'),
+(56, 15, 'Starting'),
+(57, 15, 'Starting'),
+
+-- match 16
+(75, 16, 'Starting'),
+(76, 16, 'Starting'),
+(77, 16, 'Starting'),
+(78, 16, 'Starting'),
+(79, 16, 'Starting'),
+(80, 16, 'Starting'),
+(81, 16, 'Starting'),
+(82, 16, 'Starting'),
+(83, 16, 'Starting'),
+(84, 16, 'Starting'),
+(85, 16, 'Starting'),
+
+(96, 16, 'Starting'),
+(97, 16, 'Starting'),
+(98, 16, 'Starting'),
+(99, 16, 'Starting'),
+(100, 16, 'Starting'),
+(101, 16, 'Starting'),
+(102, 16, 'Starting'),
+(103, 16, 'Starting'),
+(104, 16, 'Starting'),
+(105, 16, 'Starting'),
+(106, 16, 'Starting'),
+
+-- match 17
+(96, 17, 'Starting'),
+(97, 17, 'Starting'),
+(98, 17, 'Starting'),
+(99, 17, 'Starting'),
+(100, 17, 'Starting'),
+(101, 17, 'Starting'),
+(102, 17, 'Starting'),
+(103, 17, 'Starting'),
+(104, 17, 'Starting'),
+(105, 17, 'Starting'),
+(106, 17, 'Starting'),
+
+(2, 17, 'Starting'),
+(3, 17, 'Starting'),
+(4, 17, 'Starting'),
+(5, 17, 'Starting'),
+(6, 17, 'Starting'),
+(7, 17, 'Starting'),
+(8, 17, 'Starting'),
+(9, 17, 'Starting'),
+(10, 17, 'Starting'),
+(11, 17, 'Starting'),
+(12, 17, 'Starting'),
+
+-- match 18
+(96, 18, 'Starting'),
+(97, 18, 'Starting'),
+(98, 18, 'Starting'),
+(99, 18, 'Starting'),
+(100, 18, 'Starting'),
+(101, 18, 'Starting'),
+(102, 18, 'Starting'),
+(103, 18, 'Starting'),
+(104, 18, 'Starting'),
+(105, 18, 'Starting'),
+(106, 18, 'Starting'),
+
+(23, 18, 'Starting'),
+(24, 18, 'Starting'),
+(25, 18, 'Starting'),
+(26, 18, 'Starting'),
+(27, 18, 'Starting'),
+(28, 18, 'Starting'),
+(29, 18, 'Starting'),
+(30, 18, 'Starting'),
+(31, 18, 'Starting'),
+(32, 18, 'Starting'),
+(33, 18, 'Starting'),
+
+-- match 19
+(96, 19, 'Starting'),
+(97, 19, 'Starting'),
+(98, 19, 'Starting'),
+(99, 19, 'Starting'),
+(100, 19, 'Starting'),
+(101, 19, 'Starting'),
+(102, 19, 'Starting'),
+(103, 19, 'Starting'),
+(104, 19, 'Starting'),
+(105, 19, 'Starting'),
+(106, 19, 'Starting'),
+
+(47, 19, 'Starting'),
+(48, 19, 'Starting'),
+(49, 19, 'Starting'),
+(50, 19, 'Starting'),
+(51, 19, 'Starting'),
+(52, 19, 'Starting'),
+(53, 19, 'Starting'),
+(54, 19, 'Starting'),
+(55, 19, 'Starting'),
+(56, 19, 'Starting'),
+(57, 19, 'Starting'),
+
+-- match 20
+(96, 20, 'Starting'),
+(97, 20, 'Starting'),
+(98, 20, 'Starting'),
+(99, 20, 'Starting'),
+(100, 20, 'Starting'),
+(101, 20, 'Starting'),
+(102, 20, 'Starting'),
+(103, 20, 'Starting'),
+(104, 20, 'Starting'),
+(105, 20, 'Starting'),
+(106, 20, 'Starting'),
+(107, 20, 'Starting'),
+
+(75, 20, 'Starting'),
+(76, 20, 'Starting'),
+(77, 20, 'Starting'),
+(78, 20, 'Starting'),
+(79, 20, 'Starting'),
+(80, 20, 'Starting'),
+(81, 20, 'Starting'),
+(82, 20, 'Starting'),
+(83, 20, 'Starting'),
+(84, 20, 'Starting'),
+(85, 20, 'Starting');
+
+
 
 -- substitute
 INSERT INTO substitute (sub_in_player_id, sub_out_player_id, match_id, time_sub)
 VALUES
--- Match 1
-(13, 2, 1, '30:00');
-
--- Match 2
-
-
--- Match 3
-
--- Match 4
-
--- Match 5
-
--- Match 6
-
--- Match 7
-
--- Match 8
-
--- Match 9
-
--- Match 10
-
--- Match 11
-
--- Match 12
-
--- Match 13
-
--- Match 14
-
--- Match 15
-
--- Match 16
-
--- Match 17
-
--- Match 18
-
--- Match 19
-
--- Match 20
+(13, 2, 1, '30:00'),
+(34, 33, 1, '60:00'),
+(58, 50, 9, '75:00'),
+(86, 79, 15, '02:00'),
+(107, 100, 20, '60:00');
 
 --  goals
 INSERT INTO goal (scorer_id, assist_id, match_id, goal_time, goal_type)
@@ -764,7 +1174,7 @@ VALUES
 INSERT INTO player_stat (player_id, match_id, fouls, yellow_cards, red_cards, offside, tackles, passes, touches, play_time, penalty_saves, saves, clearance, shots, goals, own_goals)
 VALUES
 -- Match 1 12
-(2, 1, 2, 1, 0, 1, 3, 35, 60, '90:00', 0, 0, 2, 4, 1, 0),
+(2, 1, 2, 1, 0, 1, 3, 35, 60, '30:00', 0, 0, 2, 4, 1, 0),
 (3, 1, 1, 0, 0, 0, 4, 40, 65, '90:00', 0, 0, 3, 3, 0, 0),
 (4, 1, 3, 1, 0, 2, 5, 45, 70, '90:00', 0, 0, 4, 2, 0, 0),
 (5, 1, 0, 0, 0, 0, 6, 50, 80, '90:00', 0, 0, 3, 2, 1, 0),
@@ -775,7 +1185,7 @@ VALUES
 (10, 1, 1, 0, 0, 0, 6, 50, 80, '90:00', 0, 0, 4, 2, 0, 0),
 (11, 1, 3, 0, 0, 0, 4, 40, 65, '90:00', 0, 0, 5, 3, 0, 0),
 (12, 1, 1, 0, 0, 0, 2, 25, 40, '15:00', 0, 0, 1, 1, 0, 0),
-(13, 1, 0, 0, 0, 0, 1, 20, 30, '30:00', 0, 0, 0, 0, 0, 0),
+(13, 1, 0, 0, 0, 0, 1, 20, 30, '60:00', 0, 0, 0, 0, 0, 0),
 
 (23, 1, 2, 1, 0, 1, 4, 40, 65, '90:00', 0, 0, 3, 3, 1, 0),
 (24, 1, 0, 0, 0, 0, 5, 50, 75, '90:00', 0, 0, 4, 1, 0, 0),
@@ -787,7 +1197,8 @@ VALUES
 (30, 1, 3, 1, 0, 1, 6, 55, 80, '90:00', 0, 0, 4, 3, 1, 0),
 (31, 1, 2, 0, 0, 0, 4, 40, 65, '90:00', 0, 0, 3, 2, 0, 0),
 (32, 1, 1, 0, 0, 1, 5, 50, 75, '90:00', 0, 0, 3, 1, 1, 0),
-(33, 1, 2, 1, 0, 1, 3, 35, 60, '90:00', 0, 0, 1, 0, 0, 0),
+(33, 1, 2, 1, 0, 1, 3, 35, 60, '60:00', 0, 0, 1, 0, 0, 0),
+(34, 1, 2, 1, 0, 1, 3, 35, 60, '30:00', 0, 0, 1, 0, 0, 0),
 
 -- Match 2 13
 (2, 2, 1, 0, 0, 0, 4, 50, 80, '90:00', 0, 0, 3, 2, 1, 0),
@@ -968,7 +1379,7 @@ VALUES
 (47, 9, 1, 0, 0, 0, 4, 40, 65, '90:00', 0, 0, 3, 1, 1, 0),
 (48, 9, 2, 1, 0, 1, 3, 25, 50, '75:00', 0, 0, 2, 2, 0, 0),
 (49, 9, 1, 0, 0, 0, 4, 45, 70, '90:00', 0, 0, 3, 1, 0, 0),
-(50, 9, 3, 0, 0, 0, 4, 35, 60, '90:00', 0, 0, 3, 2, 0, 0),
+(50, 9, 3, 0, 0, 0, 4, 35, 60, '75:00', 0, 0, 3, 2, 0, 0),
 (51, 9, 1, 0, 0, 0, 5, 40, 65, '90:00', 0, 0, 4, 1, 0, 0),
 (52, 9, 2, 1, 0, 1, 4, 30, 55, '80:00', 0, 0, 3, 2, 0, 0),
 (53, 9, 1, 0, 0, 0, 6, 45, 75, '90:00', 0, 0, 4, 2, 0, 0),
@@ -976,6 +1387,7 @@ VALUES
 (55, 9, 2, 1, 0, 1, 5, 30, 50, '85:00', 0, 0, 3, 2, 0, 0),
 (56, 9, 1, 0, 0, 0, 4, 40, 60, '90:00', 0, 0, 3, 1, 0, 0),
 (57, 9, 3, 0, 0, 1, 5, 35, 65, '90:00', 0, 0, 3, 3, 0, 0),
+(58, 9, 3, 0, 0, 1, 5, 35, 65, '15:00', 0, 0, 3, 3, 0, 0),
 
 (2, 9, 1, 0, 0, 0, 4, 50, 80, '90:00', 0, 0, 3, 2, 0, 0),
 (3, 9, 2, 1, 0, 1, 3, 35, 60, '90:00', 0, 0, 3, 4, 0, 0),
@@ -1119,13 +1531,14 @@ VALUES
 (76, 15, 2, 1, 0, 1, 3, 25, 50, '75:00', 0, 0, 2, 2, 0, 0),
 (77, 15, 1, 0, 0, 0, 4, 45, 70, '90:00', 0, 0, 3, 1, 0, 0),
 (78, 15, 3, 0, 0, 0, 4, 35, 60, '90:00', 0, 0, 3, 2, 0, 0),
-(79, 15, 1, 0, 0, 0, 5, 40, 65, '90:00', 0, 0, 4, 1, 0, 0),
+(79, 15, 1, 0, 0, 0, 5, 40, 65, '02:00', 0, 0, 4, 1, 0, 0),
 (80, 15, 2, 1, 0, 1, 4, 30, 55, '80:00', 0, 0, 3, 2, 1, 0),
 (81, 15, 1, 0, 0, 0, 6, 45, 75, '90:00', 0, 0, 4, 2, 0, 0),
 (82, 15, 0, 0, 0, 0, 3, 20, 40, '70:00', 0, 0, 2, 1, 0, 0),
 (83, 15, 2, 1, 0, 1, 5, 30, 50, '85:00', 0, 0, 3, 2, 0, 0),
 (84, 15, 1, 0, 0, 0, 4, 40, 60, '90:00', 0, 0, 3, 1, 0, 0),
 (85, 15, 3, 0, 0, 1, 5, 35, 65, '90:00', 0, 0, 3, 3, 0, 0),
+(86, 15, 3, 0, 0, 1, 5, 35, 65, '88:00', 0, 0, 3, 3, 0, 0),
 
 (47, 15, 1, 0, 0, 0, 4, 40, 65, '90:00', 0, 0, 3, 1, 0, 0),
 (48, 15, 2, 1, 0, 1, 3, 25, 50, '75:00', 0, 0, 2, 2, 0, 0),
@@ -1244,13 +1657,14 @@ VALUES
 (97, 20, 2, 1, 0, 1, 3, 25, 50, '75:00', 0, 0, 2, 2, 0, 0),
 (98, 20, 1, 0, 0, 0, 4, 45, 70, '90:00', 0, 0, 3, 1, 0, 0),
 (99, 20, 3, 0, 0, 0, 4, 35, 60, '90:00', 0, 0, 3, 2, 0, 0),
-(100, 20, 1, 0, 0, 0, 5, 40, 65, '90:00', 0, 0, 4, 1, 0, 0),
+(100, 20, 1, 0, 0, 0, 5, 40, 65, '60:00', 0, 0, 4, 1, 0, 0),
 (101, 20, 2, 1, 0, 1, 4, 30, 55, '80:00', 0, 0, 3, 2, 0, 0),
 (102, 20, 1, 0, 0, 0, 6, 45, 75, '90:00', 0, 0, 4, 2, 1, 0),
 (103, 20, 0, 0, 0, 0, 3, 20, 40, '70:00', 0, 0, 2, 1, 0, 0),
 (104, 20, 2, 1, 0, 1, 5, 30, 50, '85:00', 0, 0, 3, 2, 0, 0),
 (105, 20, 1, 0, 0, 0, 4, 40, 60, '90:00', 0, 0, 3, 1, 0, 0),
 (106, 20, 3, 0, 0, 1, 5, 35, 65, '90:00', 0, 0, 3, 3, 1, 0),
+(107, 20, 3, 0, 0, 1, 5, 35, 65, '30:00', 0, 0, 3, 3, 0, 0),
 
 (75, 20, 1, 0, 0, 0, 4, 40, 65, '90:00', 0, 0, 3, 1, 0, 0),
 (76, 20, 2, 1, 0, 1, 3, 25, 50, '75:00', 0, 0, 2, 2, 0, 0),
@@ -1263,8 +1677,6 @@ VALUES
 (83, 20, 2, 1, 0, 1, 5, 30, 50, '85:00', 0, 0, 3, 2, 0, 0),
 (84, 20, 1, 0, 0, 0, 4, 40, 60, '90:00', 0, 0, 3, 1, 0, 0),
 (85, 20, 3, 0, 0, 1, 5, 35, 65, '90:00', 0, 0, 3, 3, 0, 0);
-
-
 
 -- Contracts for players
 INSERT INTO player_contract (player_id, club_id, buyout_clause, contract_start_date, contract_end_date, contract_value)

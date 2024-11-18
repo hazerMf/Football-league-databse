@@ -1,4 +1,4 @@
--- all potm
+-- q4 all potm
 SELECT 
     associate_name as 'Player Name', 
     potm_month as 'Month', 

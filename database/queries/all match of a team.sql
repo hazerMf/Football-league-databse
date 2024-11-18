@@ -1,4 +1,4 @@
--- return all matches of a specific team
+-- q3 return all matches of a specific team
 SELECT 
   home.club_name AS 'Home club', 
   game.home_club_goal AS 'Home goal', 

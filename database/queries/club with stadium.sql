@@ -1,4 +1,4 @@
--- return club with stadium
+-- q6 return club with stadium
 SELECT 
     club_name as 'Club Name', 
     club_city as 'Club City', 
@@ -6,4 +6,5 @@ SELECT
     stadium_location as 'Stadium Location', 
     stadium_capacity as 'Stadium Capacity'
 FROM club
-JOIN stadium ON club.stadium_id = stadium.stadium_id;
+JOIN stadium ON club.stadium_id = stadium.stadium_id
+WHERE club_status = 'ACtive';
