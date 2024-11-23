@@ -7,4 +7,4 @@ SELECT
     player.transfer_value as 'Transfer Value' 
 FROM player
 JOIN associate ON player.player_id = associate_id
-WHERE player.transfer_date BETWEEN DATE_SUB(CURRENT_DATE, INTERVAL 8 YEAR) AND CURRENT_DATE;
+WHERE player.transfer_date BETWEEN DATE_SUB(CURRENT_DATE, INTERVAL 2 YEAR) AND CURRENT_DATE;
